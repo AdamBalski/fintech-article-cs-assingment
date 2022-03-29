@@ -1,0 +1,26 @@
+.Content {
+    margin: 1rem auto 0 auto;
+    width: 100ch;
+    border-radius: 10px;
+    padding: 3vmin;
+}
+
+.Content-light {
+    background-color: #cccccc;
+}
+
+.Content-dark {
+    background-color: #333333;
+    color: white;
+}
+
+@media(max-width: 1000px) {
+    .Content {
+        width: 85vmin;
+    }
+}
+@media(max-width: 1000px) and (orientation: landscape) {
+    .Content {
+        width: 90vmax;
+    }
+}

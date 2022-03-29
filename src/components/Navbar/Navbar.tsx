@@ -1,14 +1,18 @@
-import React from 'react';
-import logo from '../logo.svg';
-import './navbar.css';
-import LightDarkModeToggle from "./LightDarkModeToggle";
+import React, {useContext} from 'react';
+import logo from '../../logo.svg';
+import './Navbar.css';
+import LightDarkModeToggle from "../LightDarkModeToggle/LightDarkModeToggle";
+import {ThemeContext} from "../../ThemeContext";
 
 function Navbar() {
-    return (
-        <div className="Navbar">
+  const themeContext: any = useContext(ThemeContext);
+  const themeSuffix = themeContext.isDarkMode ? "-dark" : "-light";
+
+  return (
+        <div className={`Navbar Navbar${themeSuffix}`}>
             <div className="navbar-left">
                 <img src={logo} className="navbar-logo" alt="logo" />
-                <h6>Wywiad z programistą fintech'u</h6>
+                <h1>Wywiad z programistą fintech'u</h1>
             </div>
             <div className="navbar-right">
                 <LightDarkModeToggle />

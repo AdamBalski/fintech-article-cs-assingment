@@ -1,0 +1,17 @@
+.Button {
+    border-radius: 10px;
+    padding: 10px;
+
+    display: inline-block;
+    font-size: larger;
+    height: 200%;
+}
+
+.Button-light {
+    background-color: #888888;
+    color: #222222;
+}
+.Button-dark {
+    background-color: #414141;
+    color: #eeeeee;
+}

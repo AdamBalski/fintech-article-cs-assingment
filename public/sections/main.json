@@ -1,1 +1,10 @@
-["intro.json", "xyz.json", "solutions.json"]
+[
+    "intro.json",
+    "neobanks.json",
+    "investing-saving.json",
+    "crypto.json",
+    "trading.json",
+    "payments.json",
+    "xyz.json",
+    "solutions.json"
+]

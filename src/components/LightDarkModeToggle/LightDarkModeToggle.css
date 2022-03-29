@@ -1,0 +1,31 @@
+.LightDarkModeToggle {
+    margin: auto 1vmin auto 0;
+    height: 6vmin;
+    width: 6vmin;
+
+    border-radius: 1vmin;
+    background-color: #414141;
+}
+
+@media(max-width: 1000px) {
+    .LightDarkModeToggle {
+        height: 8vmin;
+        width: 8vmin;
+        margin-right: 2vmin;
+    }
+}
+@media(max-width: 500px) {
+    .LightDarkModeToggle {
+        height: 9vmin;
+        width: 9vmin;
+        margin-right: 4vmin;
+    }
+}
+
+.LightDarkModeToggle-dark {
+    background-color: #eeeeee;
+}
+
+.LightDarkModeToggle-light {
+    background-color: #414141;
+}
