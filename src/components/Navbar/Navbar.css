@@ -1,0 +1,28 @@
+.Navbar {
+    display: flex;
+    flex-direction: row;
+
+    background-color: #0051ff;
+
+    position: sticky;
+    top: 0;
+}
+
+.navbar-right {
+    display: flex;
+    flex-direction: row-reverse;
+
+    flex: 1;
+}
+
+.navbar-left {
+    display: flex;
+    flex-direction: row;
+
+    flex: 1;
+}
+
+.navbar-logo {
+    height: 10vmin;
+    pointer-events: none;
+}
