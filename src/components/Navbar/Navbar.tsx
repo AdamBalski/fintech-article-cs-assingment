@@ -12,7 +12,7 @@ function Navbar() {
         <div className={`Navbar Navbar${themeSuffix}`}>
             <div className="navbar-left">
                 <img src={logo} className="navbar-logo" alt="logo" />
-                <h1>Wywiad z programistą fintech'u</h1>
+                <h1>Fintech, co to?</h1>
             </div>
             <div className="navbar-right">
                 <LightDarkModeToggle />
