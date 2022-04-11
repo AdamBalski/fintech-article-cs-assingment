@@ -14,10 +14,8 @@ const AudioContent = () => {
       <Link to={"/"}>
         <Button text={"Przeczytaj artykuł"}/>
       </Link>
-      <iframe style={{borderRadius: 12, marginTop: 20}}
-              src={"https://open.spotify.com/embed/episode/3DRgBLnoxBeOUIkgb7gXWU?utm_source=generator" + (darkMode ? "" : "&theme=0")}
-              width="100%" height="232" frameBorder="0" allowFullScreen={undefined}
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"/>
+      <iframe style={{marginTop: 30}} width="100%" height="300" scrolling="no" frameBorder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1248503725%3Fsecret_token%3Ds-8Ik9YEqfNuE&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" />
     </div>
   );
 };
