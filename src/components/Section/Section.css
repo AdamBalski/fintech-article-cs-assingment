@@ -1,3 +1,7 @@
 .Section a:visited {
     color:inherit;
 }
+
+.Section-dark a {
+    color: white;
+}
